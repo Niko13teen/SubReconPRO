@@ -1,5 +1,5 @@
 <div align="center"> <h1> SubReconPRO </h1></div>
-<h2> SubReconPRO is a subdomain discovery tool that uses brute-force techniques from a given wordlist to discover the subdomains of a target site. Displays information in the form of url, ip address, page title, response code. </h2>
+<h2> SubReconPRO is a subdomain discovery tool that uses brute-force techniques from a given wordlist to discover the subdomains of a target site. Displays information in the form of url, ip address, page title, response code. https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white </h2>
 <div align="center"> <img src="https://media2.giphy.com/media/H6E7CjSrSVWhgEV7E8/giphy.gif?cid=ecf05e478pm9qylq0bjnj9002lkilqx1yb032v8x58tik2nx&rid=giphy.gif&ct=s"></div>
 <div>
   <h3>
