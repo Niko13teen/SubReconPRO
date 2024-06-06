@@ -16,10 +16,6 @@ banner: str = """
 \____/ \__,_|_.__/\_| \_\___|\___\___/|_| |_\_|  |_|  \___/                                                                                                                                            
                                               by Niko13TeeN \n"""
 
-
-with open("wafs.json", "r") as f:
-    wafs = json.load(f)
-
 class GetAddrInfo(object):
     def __init__(self, host: str = None):
         self.host = host
@@ -48,6 +44,8 @@ class GetAddrInfo(object):
             return Fore.RED + f"[?] Host: {self.host} : Unhandled Exception!"
 
     def get_waf(self, server_name: str) -> str:
+        with open("wafs.json", "r") as f:
+            wafs = json.load(f)
         return next((key for key, value in wafs.items() if server_name.lower() == value.lower()), "Unknown")
 
 
