@@ -1,4 +1,5 @@
 {
     "cloudflare": "cloudflare",
-    "ModSecurity": "LiteSpeed"
+    "ModSecurity": "LiteSpeed",
+    "ddos-guard": "ddos-guard"
 }
